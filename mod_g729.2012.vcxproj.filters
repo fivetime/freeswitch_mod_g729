@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="g729a_v11\acelp_ca.c">
+      <Filter>g729</Filter>
+    </ClCompile>
+    <ClCompile Include="g729a_v11\basic_op.c">
+      <Filter>g729</Filter>
+    </ClCompile>
+    <ClCompile Include="g729a_v11\cod_ld8a.c">
+      <Filter>g729</Filter>
+    </ClCompile>
+    <ClCompile Include="g729a_v11\cor_func.c">
+      <Filter>g729</Filter>
+    </ClCompile>
+    <ClCompile Include="g729a_v11\de_acelp.c">
+      <Filter>g729</Filter>
+    </ClCompile>
+    <ClCompile Include="g729a_v11\dec_gain.c">
+      <Filter>g729</Filter>
+    </ClCompile>
+    <ClCompile Include="g729a_v11\dec_lag3.c">
+      <Filter>g729</Filter>
+    </ClCompile>
+    <ClCompile Include="g729a_v11\dec_ld8a.c">
+      <Filter>g729</Filter>
+    </ClCompile>
+    <ClCompile Include="g729a_v11\dspfunc.c">
+      <Filter>g729</Filter>
+    </ClCompile>
+    <ClCompile Include="g729a_v11\filter.c">
+      <Filter>g729</Filter>
+    </ClCompile>
+    <ClCompile Include="g729a_v11\gainpred.c">
+      <Filter>g729</Filter>
+    </ClCompile>
+    <ClCompile Include="g729a_v11\lpc.c">
+      <Filter>g729</Filter>
+    </ClCompile>
+    <ClCompile Include="g729a_v11\lpcfunc.c">
+      <Filter>g729</Filter>
+    </ClCompile>
+    <ClCompile Include="g729a_v11\lspdec.c">
+      <Filter>g729</Filter>
+    </ClCompile>
+    <ClCompile Include="g729a_v11\lspgetq.c">
+      <Filter>g729</Filter>
+    </ClCompile>
+    <ClCompile Include="g729a_v11\oper_32b.c">
+      <Filter>g729</Filter>
+    </ClCompile>
+    <ClCompile Include="g729a_v11\p_parity.c">
+      <Filter>g729</Filter>
+    </ClCompile>
+    <ClCompile Include="g729a_v11\pitch_a.c">
+      <Filter>g729</Filter>
+    </ClCompile>
+    <ClCompile Include="g729a_v11\post_pro.c">
+      <Filter>g729</Filter>
+    </ClCompile>
+    <ClCompile Include="g729a_v11\postfilt.c">
+      <Filter>g729</Filter>
+    </ClCompile>
+    <ClCompile Include="g729a_v11\pre_proc.c">
+      <Filter>g729</Filter>
+    </ClCompile>
+    <ClCompile Include="g729a_v11\pred_lt3.c">
+      <Filter>g729</Filter>
+    </ClCompile>
+    <ClCompile Include="g729a_v11\qua_gain.c">
+      <Filter>g729</Filter>
+    </ClCompile>
+    <ClCompile Include="g729a_v11\qua_lsp.c">
+      <Filter>g729</Filter>
+    </ClCompile>
+    <ClCompile Include="g729a_v11\tab_ld8a.c">
+      <Filter>g729</Filter>
+    </ClCompile>
+    <ClCompile Include="g729a_v11\taming.c">
+      <Filter>g729</Filter>
+    </ClCompile>
+    <ClCompile Include="g729a_v11\util.c">
+      <Filter>g729</Filter>
+    </ClCompile>
+    <ClCompile Include="mod_g729.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="g729">
+      <UniqueIdentifier>{e6746dbb-5c27-40e1-a454-cdef9d4fff88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="g729a_v11\basic_op.h">
+      <Filter>g729</Filter>
+    </ClInclude>
+    <ClInclude Include="g729a_v11\dec_gain.h">
+      <Filter>g729</Filter>
+    </ClInclude>
+    <ClInclude Include="g729a_v11\ld8a.h">
+      <Filter>g729</Filter>
+    </ClInclude>
+    <ClInclude Include="g729a_v11\lpcfunc.h">
+      <Filter>g729</Filter>
+    </ClInclude>
+    <ClInclude Include="g729a_v11\lspdec.h">
+      <Filter>g729</Filter>
+    </ClInclude>
+    <ClInclude Include="g729a_v11\lspgetq.h">
+      <Filter>g729</Filter>
+    </ClInclude>
+    <ClInclude Include="g729a_v11\oper_32b.h">
+      <Filter>g729</Filter>
+    </ClInclude>
+    <ClInclude Include="g729a_v11\pre_proc.h">
+      <Filter>g729</Filter>
+    </ClInclude>
+    <ClInclude Include="g729a_v11\qua_gain.h">
+      <Filter>g729</Filter>
+    </ClInclude>
+    <ClInclude Include="g729a_v11\qua_lsp.h">
+      <Filter>g729</Filter>
+    </ClInclude>
+    <ClInclude Include="g729a_v11\tab_ld8a.h">
+      <Filter>g729</Filter>
+    </ClInclude>
+    <ClInclude Include="g729a_v11\taming.h">
+      <Filter>g729</Filter>
+    </ClInclude>
+    <ClInclude Include="g729a_v11\typedef.h">
+      <Filter>g729</Filter>
+    </ClInclude>
+    <ClInclude Include="g729a_v11\util.h">
+      <Filter>g729</Filter>
+    </ClInclude>
+    <ClInclude Include="g729.h" />
+  </ItemGroup>
+</Project>
