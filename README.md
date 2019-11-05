@@ -13,10 +13,10 @@ cd /usr/local/src/freeswitch-1.4.6/src/mod/codecs/mod_g729/<br>
 tport_type_sctp.c:206:10: error: variable 'initmsg' has initializer but incomplete type<br>
 修改代码struct sctp_initmsg initmsg  = { 0 };为<br>
 typedef struct {<br>
-&nbsp;&nbsp;&nbsp;&nbsp;uint16_t sinit_num_ostreams;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;uint16_t sinit_max_instreams;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;uint16_t sinit_max_attempts;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;uint16_t sinit_max_init_timeo;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uint16_t sinit_num_ostreams;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uint16_t sinit_max_instreams;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uint16_t sinit_max_attempts;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uint16_t sinit_max_init_timeo;<br>
 } sctp_initmsg;<br>
 #define SCTP_INITMSG    2<br>
 sctp_initmsg initmsg  = { 0 };<br>
