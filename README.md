@@ -8,7 +8,7 @@ cd /usr/local/src/freeswitch-1.10.3/src/mod/codecs/mod_g729/
 出现codec,G.729,mod_g729就算正常了。  
   
   
-报错/data/software/freeswitch-1.8.2/libs/sofia-sip/libsofia-sip-ua/tport  
+报错/data/software/freeswitch-1.10.3/libs/sofia-sip/libsofia-sip-ua/tport  
 tport_type_sctp.c:206:10: error: variable 'initmsg' has initializer but incomplete type  
 修改代码struct sctp_initmsg initmsg = { 0 };为  
 ```
